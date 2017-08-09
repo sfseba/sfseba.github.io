@@ -1,0 +1,43 @@
+@font-face {
+   font-family: minionpro;
+   src: url(minionpro.woff);
+}
+body {
+  margin:0;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: minionpro;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+    line-height: 20px;
+    letter-spacing: 4px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(225, 227, 232);
+}
+
+.active {
+    background-color: #fff;
+}
